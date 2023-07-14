@@ -6,7 +6,7 @@ theme = "hugo-theme-shell"
 
 [Params]
   # Note: This is for the meta description, which is different from the "description" displayed in the terminal.
-  description = "Jane Doe's Portfolio!"
+  description = "A collection of conversations."
   [Params.Terminal]
   # Note: color schema
   # Note: You can choose between
@@ -25,18 +25,18 @@ theme = "hugo-theme-shell"
   # ./[folderName]/
   # ...
   # Note: result of the tree command
-  userName = "crashoverride"
-  pcName = "acidburns-new-laptop"
+  userName = "crash_override"
+  pcName = "acidburn-new-laptop"
   workDir = "/root/pwned"
-  profile = "profile.txt"
+  profile = "Garbage.txt"
 
   # Note: speed at which text is displayed on the terminal
   # Note: if set to 0, typing animation will be disabled
   # Note:
   # Note: if you want to enable Mathjax, you need to set it to 0
   # Note: and set "math: true" at front matter in your Markdown file
-  ps1Delay = 10 # prompt speed : [userName]@[pcName]:~/$ , [userName]@[pcName]:~/[workDir]$
-  stdoutDelay = 10 # stdout speed : [description] , files in Params.Tree
+  ps1Delay = 50 # prompt speed : [userName]@[pcName]:~/$ , [userName]@[pcName]:~/[workDir]$
+  stdoutDelay = 50 # stdout speed : [description] , files in Params.Tree
   commandDelay = 50 # command speed : cd [workDir] , cat [profile] , tree ./[folderName]/
 
   # terminalDelay = 20 : deprecated
@@ -46,15 +46,48 @@ theme = "hugo-theme-shell"
   # Note: 
   # Note: if you want to enable Mathjax, you need to set it to 0
   # Note: and set "math: true" at front matter in your Markdown file
-  titleDelay = 10 # title speed : "title" in front matter
-  contentDelay = 10 # content speed : content in .md file
+  titleDelay = 50 # title speed : "title" in front matter
+  contentDelay = 50 # content speed : content in .md file
 
   # activityDelay = 5 : deprecated
 
   description = """
-  Hi I am Jane Doe!
-  Nice to meet you!
-  
+
+	
+	....
+	
+	
+	hey
+	
+	
+	
+	sup d.
+	
+	
+	yo.....
+
+	in my younger and more voulnerable years i,
+
+
+	just kidding. 
+
+
+	thats the opening to the great gatsby
+
+
+you should read it.
+
+	
+.....
+
+
+you have a mango addiction but its okay....
+	
+	
+
+	This is the description text.
+	it can be a markdown file but currently is hard coded.
+	
   """
 
   # Note: If you want to use a Markdown file, you can use the following
